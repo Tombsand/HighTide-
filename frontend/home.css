@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: #1e1d1d;
+}
+
+input:hover{
+    background-color: #353434;
+}
+
+input{
+    width: 100%;
+    font-family: monospace;
+    color: #bdbbbb;
+    background-color: transparent;
+    border: 1px solid #bdbbbb;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: #353434;
+}
+
+button{
+    font-family: monospace;
+    color: #bdbbbb;
+    background-color: transparent;
+    border: 1px solid #bdbbbb;
+    border-radius: 3px;
+}
+
+p{
+    color: azure;
+    font-family: monospace;
+    margin-top: 10px;
+    text-wrap: balance;
+}
+
+.header{
+    width: auto;
+    margin: 0px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    margin: 25px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    .title{
+        font-family: monospace;
+        font-size: 30px;
+        margin-top: 25px;
+    }
+}
+
+dialog{
+    background-color: #1e1d1d;
+    border: 1px solid #bdbbbb;
+    border-radius: 3px;
+    .dialogBtn{
+        display: flex;
+        justify-content: space-around;
+        gap: 7px;
+    }
+    button{
+        width: 75px;
+        margin-top: 12px;
+    }
+}
+
+hr{
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.break{
+    margin: 100px;
+}
+.sectionText{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.content{
+    margin-left: 30px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.film{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    border: 1px solid #bdbbbb;
+    color: #bdbbbb;
+    border-radius: 3px;
+    .gambar {
+        width: 175px;
+        aspect-ratio: 0.75;
+        object-fit: cover;
+    }
+    .filmTitle{
+        font-size: 23px;
+    }
+    .episode{
+            margin-left: 12px;
+            margin-right: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        .editEpisode{
+            display: flex;
+            #editEpisodeBtn{
+                width: 100%;
+                text-wrap: nowrap;
+            }
+            input{
+                margin-left: 2px;
+            }
+        }
+        #filmBtn{
+            margin-bottom: 12px;
+            width: 150px;
+        }
+    }   
+}
